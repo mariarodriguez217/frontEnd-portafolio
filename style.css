@@ -1,0 +1,18 @@
+*{background-color: #808080;}
+ img{
+   background-color: #FFFF00;
+    margin-top:5px;
+    margin-bottom:0,5em;
+    margin-left :400px;
+    margin-right:0,5em;
+}
+.titulo{
+    margin-top:100px;
+    margin-bottom:0,5em;
+    margin-left:400px;
+    margin-right:0,5em;
+    width: 500px;
+    background-color:	#FFFF00;
+  
+    font-family:'consolas';
+}
