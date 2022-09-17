@@ -1,3 +1,22 @@
-.container{
+.container {
+    font-family: Consolas;
+    font-size:100%;
+
+
+}
+.containerban{
+    margin-top: 2rem auto;
+    height: 400px;
+    width:40;
+    background:#ebeb14;
+   
+    text-align: center;
+}
+#pres{
+    position: relative;
+    top: 120px;
+    margin-top: 2rem auto; 
+    font-family:Consolas;
     
 }
+
