@@ -7,36 +7,79 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <body style="background:#000" >
+  <body style="background:#1c1d21 ;" >
     <!-- elemento de navbar para redes sociales y login  -->
    
     <br>
-        <div class="container "  >
+    <header >
+        <div class="container-fluid"  >
  
-          <div class="row " >
+          <div class="row align-items-center " >
+           <div class="col "> <a href="#"><img src="logo.png" alt="" width="120" height="50"></a></div>
+           <div class="col-6"> </div>     
            
-            <div class="col" > <a href="#"><img src="logo.png" alt="" width="120" height="50"></a></div>
-            <div class="col" > <a href=https://www.facebook.com/profile.php?id=100009547503570>facebook</a></div>
-            <div class="col"> <a href="https://argentinaprograma.inti.gob.ar/user/profile.php?id=18831">argentina Programa</a> </div>
-            <!-- <div class="col-md-4"></div> -->
-            <div class="col"> <button type="button" class="btn " style="background:#ebeb14">Login</button></div>
-  
-          </div>
+           <div class="col"> <a href=https://www.facebook.com/profile.php?id=100009547503570 ><img class="l"src="fb.png" widtth="30 "  height="30 "  ></a></div>
+           <div class="col"> <a href="https://argentinaprograma.inti.gob.ar/user/profile.php?id=18831"><img  class="ll" src="ig.png" widtth="30 "  height="30 " ></a> </div>
+            <div class="col"><button type="button" class="btn " ><b>Login</b></button></div>
+    </div>
+          
       
         </div>
-  
+      </header>
     <!-- banner de presentacion -->
-    <header >
-      <br>
-      <br>
-      <div class="containerban"  >
-        
-        <h1 id="pres"> Hola  <br> Soy Maria Rodriguez</h1>
+    <br>
+   <section class="perfil-entero">
+    <div clas="encabezado-perfil">        
+            <div class= "banner" >
+            <input type="file">
+            <input type="submit">
+              
+                <div class="foto-perfil"  > 
+                  <img src="" alt="img-avatar">
+                  <button type="button" class="boton-avatar">
+                    <i class="far fa-image"></i>
+                </button>
+         
+                </div>
+                </div>
+      </div>  
+      
+           <div class="primera-informacion">
+          
+               <form action="typescrp" method="get" id="pI">
+                   <p>Nombre y apellido <input type="text" name="nombre" size="40"></p>
+               </form>
+               <form action="typescrp" method="get" id="pI">
+                <p>informacion profesional breve <input type="text" name="profesion" size="40"></p>
+           </form>
+              <form action="typescrp" method="get" id="pI">
+                  <p>provincia <input type="text" name="provincia" size="20"> Pais<input type="text" name="pais" size="20"></p>
+              </form>
+            </div>
+    <div classs="info-mas">
+         <div class="form"><h3>Experiencias</h3> 
+           <form action="typescrp" method="get" >
+             <p>Nombre del lugar <input type="text" name="lugarN" size="20"> Ocupacion<input type="text" name="pais" size="20"></p>
+             <p>Año de ingreso <input type="number" name="añoi" size="20"> Ultimo año trabajado<input type="number" name="añof" size="20"></p>
+             <button type="button" class="btnag"> agregar</button>
+           </form>
+          </div>
+       
+      <div class="form"><h3>Educación</h3> 
+        <form action="typescrp" method="get" >
+          <p>Titulo/certificado <input type="text" name="titulo" size="20"> institucion<input type="text" name="institucion" size="20"></p>
+          <p> estado<select name="menu"> 
+            <option>cursando</option>
+            <option value="2">terminado</option>      
+                </select>
+             Año de egreso<input type="number" name="añoeedu" size="20">
+          </p> 
+          <button type="button" class="btnag"> agregar</button>
+        </form>
       </div>
-    </header>
+    </div>
     
-
-    
+  </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
   </body>
-</html>
+</html> 
