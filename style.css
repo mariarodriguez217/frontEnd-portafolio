@@ -79,6 +79,14 @@ top:8px;
     border-radius: 15px;
     color:#0c0d0f
 }
+.btnn{
+    background-color: #17574d;
+    background: #17574d;
+    border-radius: 5px;
+    font-family: console;
+    border: 1px;
+    width: 100px;
+}
 h4{
     left: 3%;
     font-family:Georgia, 'Times New Roman', Times, serif ;
