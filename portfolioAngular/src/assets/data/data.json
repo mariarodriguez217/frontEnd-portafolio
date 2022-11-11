@@ -1,0 +1,44 @@
+{
+    "nombre":"maria",
+    "redesSociales":{
+     
+
+
+    },
+    "fotoPortada":{},
+    "fotoPerfil":{},
+    "infoProfesional":{},
+    "provincia":{},
+    "pais":{},
+    "experiencias":{
+     "lugar":{},
+     "ocupacion":{},
+     "aIngreso":{},
+     "aSalida":{}
+    },
+    "educación":{
+      "titulo":{},
+      "institucion":{},
+      "estado":
+      [
+         "cursando",
+         "terminado"
+      ],
+         "aEgreso":{},
+         "habilidades":{
+            "creatividad":{},
+            "liderazgo":{},
+            "comunicacion":{},
+            "responsabilidad":{},
+            "ambincion":{}
+         },
+         "proyectos":{
+          "nombre":{},
+          "iniciof":{},
+          "finalf":{},
+          "descripcion":{}
+         }
+
+    }
+
+}
